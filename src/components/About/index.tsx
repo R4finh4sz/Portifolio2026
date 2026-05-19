@@ -2,7 +2,6 @@
 
 import { motion } from "motion/react";
 import Image from "next/image";
-import foto from "@/Assets/131507059.jpg";
 
 export function About() {
   return (
@@ -18,10 +17,12 @@ export function About() {
           <div className="absolute inset-0 -z-10 rounded-3xl bg-gradient-to-br from-red-600/40 to-cyan-400/40 blur-2xl" />
           <div className="overflow-hidden rounded-3xl border border-white/10 bg-white/5 p-1 backdrop-blur">
             <Image
-              src={foto}
+              src="/Assets/131507059.jpg"
               alt="Foto do desenvolvedor"
+              width={600}
+              height={600}
               className="h-full w-full rounded-3xl object-cover"
-              placeholder="blur"
+              priority
             />
           </div>
         </motion.div>
