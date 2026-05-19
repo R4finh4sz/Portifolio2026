@@ -50,8 +50,8 @@ src/
 
 ```bash
 # Clone o repositório
-git clone https://github.com/R4finh4sz/Portif-lio2026.git
-cd Portif-lio2026
+git clone https://github.com/R4finh4sz/Portifolio2026.git
+cd Portifolio2026
 
 # Instale as dependências
 yarn install
