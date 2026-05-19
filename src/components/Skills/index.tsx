@@ -7,7 +7,7 @@ const skills = [
   { icon: Atom, title: "React & Next.js", desc: "SSR, RSC, Suspense, otimização de bundles e Core Web Vitals." },
   { icon: Server, title: "Node.js & APIs REST", desc: "Express, autenticação JWT, middlewares e arquitetura MVC." },
   { icon: Smartphone, title: "React Native", desc: "Apps nativos iOS/Android com Expo, animações e gestos." },
-  { icon: Database, title: "Banco de Dados", desc: "PostgreSQL, MySQL, MongoDB, Strapi" },
+  { icon: Database, title: "Banco de Dados", desc: "PostgreSQL, MySQL, MongoDB" },
   { icon: Globe, title: "TypeScript & JS", desc: "Tipagem forte, clean code e padrões modernos de desenvolvimento." },
   { icon: Palette, title: "UI/UX Design", desc: "Figma, design tokens e construção de design systems escaláveis." },
   { icon: Zap, title: "Performance & SEO", desc: "Lighthouse 100, lazy loading, edge rendering e caching avançado." },
